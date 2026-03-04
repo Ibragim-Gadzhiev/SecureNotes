@@ -1,3 +1,12 @@
 spring:
   application:
     name: "SecureNotes"
+
+  datasource:
+    url: jdbc:postgresql://localhost/secure_notes
+    username: test_user
+    password: password
+    driver-class-name: org.postgresql.Driver
+
+server:
+  port: 8080
